@@ -29,6 +29,48 @@ public class homePage_TC extends setup {
 		Assert.assertEquals(logoTxt, logoText);
 	}
 	
+	//NAVBAR
+	By home = By.xpath("//a[normalize-space()='Home']//*[name()='svg']");
+	By category = By.xpath("//a[normalize-space()='Category']//*[name()='svg']");
+	By aboutUs = By.xpath("//a[normalize-space()='About Us']//*[name()='svg']");
+	By logoButton = By.xpath("(//img[@alt='LOGO'])[1]");
+	By hireQA = By.xpath("//a[normalize-space()='Hire QA']");
+	By writePop = By.xpath("//button[normalize-space()='Cancel']");
+	By writePopSignIn = By.xpath("//button[normalize-space()='Sign In']");
+	By write = By.xpath("//button[normalize-space()='Write']");
+	By signIn = By.xpath("(//span[@class='after'])[1]");
+	
+	public void navBar() throws InterruptedException{
+
+		driver.findElement(home).click();
+		Thread.sleep(1000);
+		driver.findElement(category).click();
+		Thread.sleep(1000);
+		driver.findElement(aboutUs).click();
+		Thread.sleep(1000);
+		driver.findElement(logoButton).click();
+		Thread.sleep(1000);
+		driver.findElement(signIn).click();
+		driver.navigate().back();
+		Thread.sleep(1000);
+		
+		driver.findElement(write).click();
+		Thread.sleep(1000);
+		driver.findElement(writePop).click();
+		Thread.sleep(1000);
+		driver.findElement(write).click();
+		Thread.sleep(1000);
+		driver.findElement(writePopSignIn).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		Thread.sleep(1000);
+		
+		driver.findElement(hireQA).click();
+		Thread.sleep(1000);
+	}
+	
+	//FOOTER
+	
 	
 	
 

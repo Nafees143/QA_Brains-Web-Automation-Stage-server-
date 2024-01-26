@@ -23,6 +23,12 @@ public class homePage extends setup{
     	testCase.titleAssert();
     	testCase.logoAssert();
     }
+    
+    @Test ( priority=2 )
+    public void navigation() throws InterruptedException {
+    	homePage_TC testCase = new homePage_TC(driver);
+    	testCase.navBar();
+    }
 
     @AfterMethod
     public void tearDown() {
