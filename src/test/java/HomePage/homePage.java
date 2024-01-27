@@ -24,10 +24,28 @@ public class homePage extends setup{
     	testCase.logoAssert();
     }
     
-    @Test ( priority=2 )
+    @Test ( priority = 2 )
     public void navigation() throws InterruptedException {
     	homePage_TC testCase = new homePage_TC(driver);
     	testCase.navBar();
+    }
+    
+    @Test ( priority = 3 )
+    public void footer() throws InterruptedException {
+    	homePage_TC testCase = new homePage_TC(driver);
+    	testCase.footerTest();
+    }
+    
+    @Test ( priority = 4 )
+    public void footerMail() throws InterruptedException {
+    	homePage_TC testCase = new homePage_TC(driver);
+    	testCase.footerMail();
+    }
+    
+    @Test ( priority = 5 )
+    public void footerRULlogo() throws InterruptedException {
+    	homePage_TC testCase = new homePage_TC(driver);
+    	testCase.footerRULlogo();
     }
 
     @AfterMethod

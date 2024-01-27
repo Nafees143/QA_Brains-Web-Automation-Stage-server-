@@ -7,7 +7,7 @@
         <methods>
           <include name="Browser"/>
           <include name="tearDown"/>
-          <include name="navigation"/>
+          <include name="footerRULlogo"/>
         </methods>
       </class> <!-- HomePage.homePage -->
     </classes>

@@ -3,13 +3,17 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="SignIn_Login.signIn">
+      <class name="HomePage.homePage">
         <methods>
-          <include name="tearDown"/>
           <include name="Browser"/>
-          <include name="invalid_id_pass"/>
+          <include name="footerMail"/>
+          <include name="tearDown"/>
+          <include name="titleAndLogoAssert"/>
+          <include name="footerRULlogo"/>
+          <include name="footer"/>
+          <include name="navigation"/>
         </methods>
-      </class> <!-- SignIn_Login.signIn -->
+      </class> <!-- HomePage.homePage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

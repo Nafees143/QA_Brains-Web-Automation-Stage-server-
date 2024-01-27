@@ -70,11 +70,111 @@ public class homePage_TC extends setup {
 	}
 	
 	//FOOTER
+	By ScrolltoLastTextinPageForFooter = By.xpath("//button[normalize-space()='gfhng']");
+	By ScrolltoLastTextinFooter = By.xpath("//p[@class='mb-0 text-white']");
+	
+	By footerLogo = By.xpath("//a[@class='mb-4 d-inline-block']//img[@alt='LOGO']");
+	By fCategory_1 = By.xpath("//a[normalize-space()='test111']");
+	By fCategory_2 = By.xpath("//a[normalize-space()='Database']");
+	By fCategory_3 = By.xpath("//a[normalize-space()='fwefwef']");
+	By fCategory_4 = By.xpath("//a[normalize-space()='mm']");
+	By fCategory_5 = By.xpath("//a[normalize-space()='check']");
+	By fCategory_6 = By.xpath("//a[normalize-space()='kjngfk']");
+	By fCategory_7 = By.xpath("//a[normalize-space()='Machine Learning']");
+	By fCategory_8 = By.xpath("//a[normalize-space()='ddd']");
 	
 	
+	public void footerTest() throws InterruptedException{
+			scorllToElement(ScrolltoLastTextinPageForFooter);
+			scorllToElement(ScrolltoLastTextinFooter);
+			Thread.sleep(1000);
+			driver.findElement(footerLogo).click();
+			Thread.sleep(1000);
+//			driver.navigate().back();
+			
+			scorllToElement(ScrolltoLastTextinPageForFooter);
+			scorllToElement(ScrolltoLastTextinFooter);
+			Thread.sleep(1000);
+			driver.findElement(fCategory_1).click();
+			Thread.sleep(1000);
+			driver.navigate().back();
+			
+			scorllToElement(ScrolltoLastTextinPageForFooter);
+			scorllToElement(ScrolltoLastTextinFooter);
+			Thread.sleep(1000);
+			driver.findElement(fCategory_2).click();
+			Thread.sleep(1000);
+			driver.navigate().back();
+			
+			scorllToElement(ScrolltoLastTextinPageForFooter);
+			scorllToElement(ScrolltoLastTextinFooter);
+			Thread.sleep(1000);
+			driver.findElement(fCategory_3).click();
+			Thread.sleep(1000);
+			driver.navigate().back();
+			
+			scorllToElement(ScrolltoLastTextinPageForFooter);
+			scorllToElement(ScrolltoLastTextinFooter);
+			Thread.sleep(1000);
+			driver.findElement(fCategory_4).click();
+			Thread.sleep(1000);
+			driver.navigate().back();
+			
+			scorllToElement(ScrolltoLastTextinPageForFooter);
+			scorllToElement(ScrolltoLastTextinFooter);
+			Thread.sleep(1000);
+			driver.findElement(fCategory_5).click();
+			Thread.sleep(1000);
+			driver.navigate().back();
+			
+			scorllToElement(ScrolltoLastTextinPageForFooter);
+			scorllToElement(ScrolltoLastTextinFooter);
+			Thread.sleep(1000);
+			driver.findElement(fCategory_6).click();
+			Thread.sleep(1000);
+			driver.navigate().back();
+			
+			scorllToElement(ScrolltoLastTextinPageForFooter);
+			scorllToElement(ScrolltoLastTextinFooter);
+			Thread.sleep(1000);
+			driver.findElement(fCategory_7).click();
+			Thread.sleep(1000);
+			driver.navigate().back();
+			
+			scorllToElement(ScrolltoLastTextinPageForFooter);
+			scorllToElement(ScrolltoLastTextinFooter);
+			Thread.sleep(1000);
+			driver.findElement(fCategory_8).click();
+			Thread.sleep(1000);
+			driver.navigate().back();
+			
+		}
+	
+	By fMail = By.xpath("//a[normalize-space()='mailadress@email.com']");
+	public void footerMail() throws InterruptedException{
+		scorllToElement(ScrolltoLastTextinPageForFooter);
+		scorllToElement(ScrolltoLastTextinFooter);
+		Thread.sleep(1000);
+		driver.findElement(fMail).click();
+		Thread.sleep(1000);
+		
+	}
+	
+	By fRiseupLogo = By.xpath("//a[@class='text-white text-uppercase']");
+	public void footerRULlogo() throws InterruptedException{
+		scorllToElement(ScrolltoLastTextinPageForFooter);
+		scorllToElement(ScrolltoLastTextinFooter);
+		Thread.sleep(1000);
+		driver.findElement(fRiseupLogo).click();
+		Thread.sleep(1000);
+		
+	}
+
+		
+		
+	}
 	
 
-}
 
 
 
