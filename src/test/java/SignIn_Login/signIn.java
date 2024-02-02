@@ -1,8 +1,8 @@
 package SignIn_Login;
 
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 
 import Base.setup;
 
@@ -27,6 +27,21 @@ public class signIn extends setup {
 		negetiveTest.wrong_pass();
 
 	}
+	
+	@Test (priority = 3)
+	public void emptyClick() throws InterruptedException {
+		signIn_TC negetiveTest = new signIn_TC(driver);
+		negetiveTest.emptyClick();
+
+	}
+	
+	@Test (priority = 4)
+	public void forgotPassword() throws InterruptedException {
+		signIn_TC forgotPasswordTest = new signIn_TC(driver);
+		forgotPasswordTest.forgotPassword();
+
+	}
+	
 
 	@AfterMethod
 	public void tearDown() {

@@ -8,10 +8,10 @@
           <include name="Browser"/>
           <include name="footerMail"/>
           <include name="tearDown"/>
-          <include name="titleAndLogoAssert"/>
+          <include name="homeContainer"/>
           <include name="footerRULlogo"/>
           <include name="footer"/>
-          <include name="navigation"/>
+          <include name="homePageCategory"/>
         </methods>
       </class> <!-- HomePage.homePage -->
     </classes>

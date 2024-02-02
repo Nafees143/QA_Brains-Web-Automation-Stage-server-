@@ -1,5 +1,7 @@
 package Base;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -9,6 +11,7 @@ import org.openqa.selenium.WebElement;
 public class commonMethod {
 
     public WebDriver driver;
+
     
     // SCROLL
     public void scorllToElement(By scrollFind) throws InterruptedException {
@@ -17,6 +20,25 @@ public class commonMethod {
          je.executeScript("arguments[0].scrollIntoView();", scrollFindOne);
          Thread.sleep(3000);
     }
+    
+    
+    //ERROR MESSAGE PRINTER
+    public List<WebElement> PrinterrorMessage(By errorMessage) {
+        List<WebElement> message = driver.findElements(errorMessage);
+
+        if (message != null && !message.isEmpty()) {
+            for (WebElement errorElement : message) {
+                if (errorElement != null) {
+                    String text = errorElement.getText();
+                    if (text != null && !text.isEmpty()) {
+                        System.out.println("Error Message: " + text);
+                    }
+                }
+            }
+        }
+        return message;
+    }
+    
     
     // VALID SIGNIN
     By signin = By.xpath("//a[@href='/auth/login']");
@@ -37,22 +59,6 @@ public class commonMethod {
     
 }
 
-
-//scroll element's 
-
-//public void scroll() throws InterruptedException {
-//	homePage_TC testCase = new homePage_TC(driver);
-//			testCase.scrollText();
-//}
-
-
-
-//scroll path from T_C
-//By faq = By.xpath("//h2[text()='Frequently asked questions']");
-//public void scrollText() throws InterruptedException {
-//	scorllToElement(faq);
-//	Thread.sleep(3000);
-//}
 
 
 

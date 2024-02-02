@@ -1,99 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-27T17:08:33 BDT" name="Suite" finished-at="2024-01-27T17:11:31 BDT" duration-ms="177213">
+  <suite started-at="2024-01-31T17:17:04 BDT" name="Default suite" finished-at="2024-01-31T17:18:25 BDT" duration-ms="80722">
     <groups>
     </groups>
-    <test started-at="2024-01-27T17:08:33 BDT" name="Test" finished-at="2024-01-27T17:11:31 BDT" duration-ms="177213">
+    <test started-at="2024-01-31T17:17:04 BDT" name="Default test" finished-at="2024-01-31T17:18:25 BDT" duration-ms="80722">
       <class name="SignIn_Login.signIn">
-        <test-method is-config="true" signature="Browser()[pri:0, instance:SignIn_Login.signIn@3c19aaa5]" started-at="2024-01-27T17:10:52 BDT" name="Browser" finished-at="2024-01-27T17:11:00 BDT" duration-ms="8533" status="PASS">
+        <test-method is-config="true" signature="Browser()[pri:0, instance:SignIn_Login.signIn@3c77d488]" started-at="2024-01-31T17:17:04 BDT" name="Browser" finished-at="2024-01-31T17:17:12 BDT" duration-ms="7213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser -->
-        <test-method signature="invalid_id_pass()[pri:1, instance:SignIn_Login.signIn@3c19aaa5]" started-at="2024-01-27T17:11:00 BDT" name="invalid_id_pass" finished-at="2024-01-27T17:11:12 BDT" duration-ms="11523" status="PASS">
+        <test-method signature="invalid_id_pass()[pri:1, instance:SignIn_Login.signIn@3c77d488]" started-at="2024-01-31T17:17:12 BDT" name="invalid_id_pass" finished-at="2024-01-31T17:17:23 BDT" duration-ms="11355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalid_id_pass -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SignIn_Login.signIn@3c19aaa5]" started-at="2024-01-27T17:11:12 BDT" name="tearDown" finished-at="2024-01-27T17:11:12 BDT" duration-ms="109" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SignIn_Login.signIn@3c77d488]" started-at="2024-01-31T17:17:23 BDT" name="tearDown" finished-at="2024-01-31T17:17:23 BDT" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="Browser()[pri:0, instance:SignIn_Login.signIn@3c19aaa5]" started-at="2024-01-27T17:11:12 BDT" name="Browser" finished-at="2024-01-27T17:11:19 BDT" duration-ms="7304" status="PASS">
+        <test-method is-config="true" signature="Browser()[pri:0, instance:SignIn_Login.signIn@3c77d488]" started-at="2024-01-31T17:17:23 BDT" name="Browser" finished-at="2024-01-31T17:17:29 BDT" duration-ms="6002" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser -->
-        <test-method signature="invalid_pass()[pri:2, instance:SignIn_Login.signIn@3c19aaa5]" started-at="2024-01-27T17:11:19 BDT" name="invalid_pass" finished-at="2024-01-27T17:11:31 BDT" duration-ms="11589" status="PASS">
+        <test-method signature="invalid_pass()[pri:2, instance:SignIn_Login.signIn@3c77d488]" started-at="2024-01-31T17:17:29 BDT" name="invalid_pass" finished-at="2024-01-31T17:17:40 BDT" duration-ms="11305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalid_pass -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SignIn_Login.signIn@3c19aaa5]" started-at="2024-01-27T17:11:31 BDT" name="tearDown" finished-at="2024-01-27T17:11:31 BDT" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SignIn_Login.signIn@3c77d488]" started-at="2024-01-31T17:17:40 BDT" name="tearDown" finished-at="2024-01-31T17:17:40 BDT" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Browser()[pri:0, instance:SignIn_Login.signIn@3c77d488]" started-at="2024-01-31T17:17:40 BDT" name="Browser" finished-at="2024-01-31T17:17:47 BDT" duration-ms="6063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser -->
+        <test-method signature="emptyClick()[pri:3, instance:SignIn_Login.signIn@3c77d488]" started-at="2024-01-31T17:17:47 BDT" name="emptyClick" finished-at="2024-01-31T17:17:55 BDT" duration-ms="8488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyClick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SignIn_Login.signIn@3c77d488]" started-at="2024-01-31T17:17:55 BDT" name="tearDown" finished-at="2024-01-31T17:17:55 BDT" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Browser()[pri:0, instance:SignIn_Login.signIn@3c77d488]" started-at="2024-01-31T17:17:55 BDT" name="Browser" finished-at="2024-01-31T17:18:01 BDT" duration-ms="6024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser -->
+        <test-method signature="forgotPassword()[pri:4, instance:SignIn_Login.signIn@3c77d488]" started-at="2024-01-31T17:18:01 BDT" name="forgotPassword" finished-at="2024-01-31T17:18:25 BDT" duration-ms="23793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SignIn_Login.signIn@3c77d488]" started-at="2024-01-31T17:18:25 BDT" name="tearDown" finished-at="2024-01-31T17:18:25 BDT" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SignIn_Login.signIn -->
-      <class name="HomePage.homePage">
-        <test-method is-config="true" signature="Browser()[pri:0, instance:HomePage.homePage@79e2c065]" started-at="2024-01-27T17:08:34 BDT" name="Browser" finished-at="2024-01-27T17:08:41 BDT" duration-ms="7286" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browser -->
-        <test-method signature="titleAndLogoAssert()[pri:1, instance:HomePage.homePage@79e2c065]" started-at="2024-01-27T17:08:41 BDT" name="titleAndLogoAssert" finished-at="2024-01-27T17:08:41 BDT" duration-ms="85" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titleAndLogoAssert -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:HomePage.homePage@79e2c065]" started-at="2024-01-27T17:08:41 BDT" name="tearDown" finished-at="2024-01-27T17:08:41 BDT" duration-ms="191" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="Browser()[pri:0, instance:HomePage.homePage@79e2c065]" started-at="2024-01-27T17:08:41 BDT" name="Browser" finished-at="2024-01-27T17:08:48 BDT" duration-ms="6611" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browser -->
-        <test-method signature="navigation()[pri:2, instance:HomePage.homePage@79e2c065]" started-at="2024-01-27T17:08:48 BDT" name="navigation" finished-at="2024-01-27T17:09:00 BDT" duration-ms="12046" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:HomePage.homePage@79e2c065]" started-at="2024-01-27T17:09:00 BDT" name="tearDown" finished-at="2024-01-27T17:09:00 BDT" duration-ms="78" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="Browser()[pri:0, instance:HomePage.homePage@79e2c065]" started-at="2024-01-27T17:09:00 BDT" name="Browser" finished-at="2024-01-27T17:09:08 BDT" duration-ms="7827" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browser -->
-        <test-method signature="footer()[pri:3, instance:HomePage.homePage@79e2c065]" started-at="2024-01-27T17:09:08 BDT" name="footer" finished-at="2024-01-27T17:10:21 BDT" duration-ms="73759" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- footer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:HomePage.homePage@79e2c065]" started-at="2024-01-27T17:10:21 BDT" name="tearDown" finished-at="2024-01-27T17:10:22 BDT" duration-ms="142" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="Browser()[pri:0, instance:HomePage.homePage@79e2c065]" started-at="2024-01-27T17:10:22 BDT" name="Browser" finished-at="2024-01-27T17:10:28 BDT" duration-ms="6756" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browser -->
-        <test-method signature="footerMail()[pri:4, instance:HomePage.homePage@79e2c065]" started-at="2024-01-27T17:10:28 BDT" name="footerMail" finished-at="2024-01-27T17:10:37 BDT" duration-ms="8212" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- footerMail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:HomePage.homePage@79e2c065]" started-at="2024-01-27T17:10:37 BDT" name="tearDown" finished-at="2024-01-27T17:10:37 BDT" duration-ms="86" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="Browser()[pri:0, instance:HomePage.homePage@79e2c065]" started-at="2024-01-27T17:10:37 BDT" name="Browser" finished-at="2024-01-27T17:10:43 BDT" duration-ms="6593" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browser -->
-        <test-method signature="footerRULlogo()[pri:5, instance:HomePage.homePage@79e2c065]" started-at="2024-01-27T17:10:43 BDT" name="footerRULlogo" finished-at="2024-01-27T17:10:51 BDT" duration-ms="8253" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- footerRULlogo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:HomePage.homePage@79e2c065]" started-at="2024-01-27T17:10:51 BDT" name="tearDown" finished-at="2024-01-27T17:10:52 BDT" duration-ms="62" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- HomePage.homePage -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
