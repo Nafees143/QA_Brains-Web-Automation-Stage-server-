@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SignIn_Login.signIn">
+      <class name="HomePage.homePage">
         <methods>
-          <include name="tearDown"/>
-          <include name="forgotPassword"/>
           <include name="Browser"/>
+          <include name="tearDown"/>
+          <include name="footerRULlogo"/>
         </methods>
-      </class> <!-- SignIn_Login.signIn -->
+      </class> <!-- HomePage.homePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
